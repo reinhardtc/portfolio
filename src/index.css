@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-syne: "Syne", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  /* --cream: #f5f0e8;
+  --cream-dark: #ede6d6;
+  --walnut: #2c1f14;
+  --walnut-mid: #4a3728;
+  --terracotta: #c4603a;
+  --mustard: #c8922a;
+  --sage: #7a8c6e;
+  --dusty-olive: #6B7A52;
+  --warm-gray: #9a9187;
+  --rule: #d4c9b8; */
+
+  --parchment: #f5f0e8;
+  --eggshell: #ede6d6;
+  --dark-coffee: #2c1f14;
+  --chocolate-rust: #b75d34;
+  --evergreen: #1c2b1e;
+  --dusty-olive: #6b7a52;
+  --grey-olive: #9a9187;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--parchment);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
