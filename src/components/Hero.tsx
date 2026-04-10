@@ -1,5 +1,6 @@
 export default function Hero() {
   return (
+    //hero section
     <div className="hero-container grid grid-cols-2">
       <div className="hero-left flex flex-col justify-center content-start py-32 px-16 border-r border-(--grey-olive)">
         <p className="hero-eyebrow">Hello world</p>
